@@ -16,6 +16,12 @@ img {
   display: block;
   margin: 0 auto;
 }
+small {
+  display: block;
+  opacity: 0.6;
+  color: #254316;
+  text-align: center;
+}
 .links {
   display: flex;
   justify-content: center;
