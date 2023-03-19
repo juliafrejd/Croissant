@@ -17,6 +17,7 @@ img {
   margin: 0 auto;
 }
 small {
+  font-size: 12px;
   display: block;
   opacity: 0.6;
   color: #254316;
