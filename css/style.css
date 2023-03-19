@@ -1,17 +1,19 @@
 body {
   background-color: #ffe6d6;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 50px 200px;
 }
 h1 {
   text-align: center;
   color: #254316;
-  font-size: 46px;
 }
-p {
+p,
+h2,
+h3 {
   text-align: center;
   color: #316816;
+  padding: 10px;
 }
+
 img {
   display: block;
   margin: 0 auto;
@@ -23,6 +25,12 @@ small {
   color: #254316;
   text-align: center;
 }
+.container {
+  display: block;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 700px;
+}
 .links {
   display: flex;
   justify-content: center;
@@ -30,9 +38,15 @@ small {
 .links a {
   color: #316816;
   font-weight: 400;
-  margin: 0 40px;
+  margin: 0 30px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .links a:hover {
   opacity: 0.7;
+}
+@media (max-width: 700px) {
+  img {
+    max-width: 400px;
+  }
 }
